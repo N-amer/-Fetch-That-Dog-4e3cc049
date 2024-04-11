@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+}
+
+.dog-image {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+}
+
+.dog-name {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.dog-breed {
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.btn-like {
+    background-color: rgb(255, 86, 185);
+    color: #fff;
+    border: none;
+    margin-right: 10px;
+}
+
+.btn-dislike {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+}
+
+.btn-dislike:hover {
+    background-color: #202020;
+}
+
+.btn-like:hover {
+    background-color: rgba(251, 0, 147, 0.8);
+}
+
+h1 {
+    background-color: #f314f3;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+}
